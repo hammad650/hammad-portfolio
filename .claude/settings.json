@@ -5,7 +5,9 @@
       "Bash(node /private/tmp/claude-502/-Users-developer-Downloads-IT-my-portfolio-main/bcf3d452-31a8-43bf-b746-811a3932e8c2/scratchpad/gen-favicon.mjs)",
       "Bash(node /Users/developer/Downloads/IT/my-portfolio-main/gen-favicon.mjs)",
       "Bash(npx tsc *)",
-      "Bash(echo \"exit: $?\")"
+      "Bash(echo \"exit: $?\")",
+      "Bash(git config *)",
+      "Bash(git credential-osxkeychain *)"
     ]
   }
 }
