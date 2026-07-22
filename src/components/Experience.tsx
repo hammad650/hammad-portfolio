@@ -2,40 +2,41 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Briefcase, GraduationCap, Award } from "lucide-react";
+import { Briefcase, GraduationCap } from "lucide-react";
 
 const experiences = [
   {
-    period: "Jun 2025 – Present",
-    role: "Senior Full-Stack Developer",
-    company: "Rayymen Technologies",
+    period: "Jan 2026 – Present",
+    role: "Mid Senior Frontend Developer",
+    company: "Rayymen Technologies Private Limited",
     location: "Lahore, Pakistan",
     points: [
-      "Lead a full-stack team of 5+ engineers, building reusable UIs in Next.js & Flutter alongside scalable Node.js/Express REST APIs following clean architecture.",
-      "Designed backend services — auth, role-based access control, RESTful endpoints — reducing API response times by 30%.",
-      "Defined team-wide coding standards and reusable component libraries, cutting onboarding time by 40%.",
-      "Mentored 3+ junior developers and shipped PWAs, AI-assisted flows, and AR experiences.",
+      "Built responsive, high-performance, pixel-perfect UIs using Next.js and React 19 across multiple company products, including content platforms, admin panels, and marketplace management systems.",
+      "Integrated REST APIs for authentication, role-based access, and data-driven views, along with third-party services including Contentful CMS and eBay/Mirakl APIs.",
+      "Contributed to WBS planning for frontend deliverables, supporting predictable delivery timelines across projects.",
+      "Worked in an Agile environment, contributing to iterative development cycles and timely feature delivery.",
     ],
   },
   {
-    period: "Jun 2022 – Jul 2025",
-    role: "Senior Full-Stack Developer (Remote)",
-    company: "i-ways Sales Solutions GmbH",
-    location: "Berlin, Germany",
+    period: "Jan 2025 – Dec 2025",
+    role: "Frontend Developer",
+    company: "BottomCode",
+    location: "Lahore, Pakistan",
     points: [
-      "Led frontend & mobile for a German SaaS company — delivered 10+ production-grade Next.js apps and a SwiftUI iOS app across European markets.",
-      "Collaborated with cross-functional teams across 3+ time zones to translate requirements into scalable solutions.",
-      "Pioneered PWA adoption and AI-driven UX, reducing technical debt by 35%.",
+      "Translated requirements into functional features, coordinating with backend teams to align on data flow and API integration.",
+      "Assisted junior developers with code reviews and technical troubleshooting across multiple projects.",
+      "Collaborated with the team to ensure timely and accurate delivery of assigned features.",
     ],
   },
   {
-    period: "Jun 2018 – Mar 2020",
-    role: "Full Stack Developer",
-    company: "RogenTech",
-    location: "Islamabad, Pakistan",
+    period: "Jan 2022 – Nov 2024",
+    role: "Front End Developer",
+    company: "Silicon Nexus",
+    location: "Lahore, Pakistan",
     points: [
-      "Built 5+ full-stack web applications with HTML, CSS, JavaScript, Laravel, and MySQL/MongoDB.",
-      "Collaborated in Agile teams and managed deployments across multiple hosting environments.",
+      "Participated in client calls to gather and clarify requirements, ensuring accurate translation into frontend implementation.",
+      "Collaborated with UI/UX designers to review and refine Figma designs, ensuring alignment with client requirements before development.",
+      "Built responsive frontend applications using React and Redux, integrating REST APIs and third-party services (Firebase, Stripe).",
     ],
   },
 ];
@@ -91,7 +92,7 @@ const Experience = () => {
           </div>
         </div>
 
-        <div className="mt-14 grid gap-4 sm:grid-cols-2">
+        <div className="mt-14">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -104,29 +105,10 @@ const Experience = () => {
               </span>
               <h3 className="font-semibold text-white">Education</h3>
             </div>
-            <p className="mt-3 text-sm text-white">
-              B.S. Computer Software Engineering
-            </p>
+            <p className="mt-3 text-sm text-white">B.S. Information Technology</p>
             <p className="text-sm text-slate-400">
-              COMSATS University Islamabad · 2018–2022
+              Lahore Garrison University · 2016–2020
             </p>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.08 }}
-            className="glass rounded-2xl p-5"
-          >
-            <div className="flex items-center gap-3">
-              <span className="flex-center size-10 rounded-xl bg-gradient-to-tr from-blue-500/20 to-emerald-500/20 border border-white/10">
-                <Award className="size-5 text-emerald-300" />
-              </span>
-              <h3 className="font-semibold text-white">Certification</h3>
-            </div>
-            <p className="mt-3 text-sm text-white">DevOps on AWS</p>
-            <p className="text-sm text-slate-400">Amazon Web Services</p>
           </motion.div>
         </div>
       </div>

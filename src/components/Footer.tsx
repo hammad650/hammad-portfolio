@@ -8,10 +8,10 @@ const Footer = () => {
       <div className="max-w-5xl mx-auto border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="text-center sm:text-left">
           <p className="font-extrabold text-white tracking-wide">
-            M<span className="gradient-text">T</span>W
+            H<span className="gradient-text">Z</span>
           </p>
           <p className="text-sm text-slate-500 mt-1">
-            © 2026 Muhammad Talha Waseem · Islamabad, Pakistan
+            © 2026 Hammad Zahid · Lahore, Pakistan
           </p>
         </div>
 
@@ -19,21 +19,21 @@ const Footer = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://linkedin.com/in/iammtw"
+            href="https://www.linkedin.com/in/hammad-zahid-357882209"
             className="flex-center size-10 rounded-full glass text-slate-300 hover:text-white hover:border-emerald-400/40 transition-colors"
           >
             <FaLinkedin className="size-4" />
           </a>
           <a
             rel="noreferrer"
-            href="mailto:muhammadtalhawaseem@gmail.com"
+            href="mailto:khanhammad1093@gmail.com"
             className="flex-center size-10 rounded-full glass text-slate-300 hover:text-white hover:border-emerald-400/40 transition-colors"
           >
             <Mail className="size-4" />
           </a>
           <a
             rel="noreferrer"
-            href="tel:+923485583125"
+            href="tel:+923196766187"
             className="flex-center size-10 rounded-full glass text-slate-300 hover:text-white hover:border-emerald-400/40 transition-colors"
           >
             <Phone className="size-4" />

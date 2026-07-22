@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 import {
   Code2,
   Boxes,
-  Smartphone,
-  Brain,
+  Database,
+  Palette,
   Server,
   Wrench,
 } from "lucide-react";
@@ -17,32 +17,32 @@ const skills = [
   {
     icon: Code2,
     title: "Languages",
-    items: "JavaScript, TypeScript, Dart, Swift, Python, PHP",
+    items: "JavaScript (ES6+), TypeScript, HTML5, CSS3",
   },
   {
     icon: Boxes,
     title: "Frameworks",
-    items: "React, Next.js, Flutter, SwiftUI, Node.js, Laravel",
+    items: "React.js, Next.js",
   },
   {
-    icon: Smartphone,
-    title: "Mobile",
-    items: "Flutter (Clean Arch, GetX, BLoC), SwiftUI, Combine",
+    icon: Database,
+    title: "State & Data Management",
+    items: "Redux / Redux Toolkit, Zustand, TanStack Query / Table",
   },
   {
-    icon: Brain,
-    title: "AI & Automation",
-    items: "LangChain, AI Agents, LLM Integration, n8n, OpenAI",
+    icon: Palette,
+    title: "UI & Visualization",
+    items: "Tailwind CSS, shadcn/ui, Material UI, D3.js, Recharts",
   },
   {
     icon: Server,
-    title: "APIs & Backend",
-    items: "REST, GraphQL, Firebase, MySQL, MongoDB, LAMP",
+    title: "Backend",
+    items: "Node.js, Express.js, MongoDB",
   },
   {
     icon: Wrench,
-    title: "DevOps & Tooling",
-    items: "Git, CI/CD, AWS, Docker, Lighthouse",
+    title: "Tools & Deployment",
+    items: "Git, GitHub, Vite, Webpack, Vercel, Netlify",
   },
 ];
 
@@ -69,37 +69,35 @@ const About = () => {
           <div className="float-none sm:float-right sm:ml-6 mb-4 relative w-fit">
             <div className="absolute -inset-1.5 rounded-2xl bg-gradient-to-tr from-blue-500 to-emerald-400 blur-lg opacity-30" />
             <Image
-              src="/DP.jpeg"
-              alt="Muhammad Talha Waseem"
+              src="/img/hammad.jpeg"
+              alt="Hammad Zahid"
               width={180}
               height={200}
               className="relative rounded-2xl object-cover w-[150px] h-[180px] sm:w-[180px] sm:h-[200px] border border-white/10"
             />
           </div>
           <p>
-            I&apos;m <strong className="text-white">Muhammad Talha Waseem</strong>,
-            a Senior Full-Stack Engineer based in Islamabad with 5+ years
-            delivering scalable, high-performance applications across web and
-            mobile.
+            I&apos;m <strong className="text-white">Hammad Zahid</strong>, a
+            Frontend Developer based in Lahore with 4+ years of experience
+            building responsive, high-performance web applications.
           </p>
           <p>
-            I&apos;m an expert in{" "}
-            <strong className="text-white">React, Next.js, Node.js</strong> and{" "}
-            <strong className="text-white">Flutter</strong>, with hands-on{" "}
-            <strong className="text-white">AI/LLM integration</strong> using
-            LangChain, n8n, and the OpenAI &amp; AWS Bedrock APIs. I&apos;ve led
-            full-stack teams, established engineering standards, and shipped
-            complex products across Fintech, Healthcare, and Sustainability.
+            I specialize in{" "}
+            <strong className="text-white">React, Next.js, and TypeScript</strong>,
+            with a proven track record developing{" "}
+            <strong className="text-white">CMS-integrated platforms</strong>,
+            admin dashboards, and data-driven interfaces using modern state
+            management and API integration.
           </p>
           <p>
             At <strong className="text-white">Rayymen Technologies</strong> I
-            lead a full-stack team of 5+ engineers, and over three years at{" "}
-            <strong className="text-white">i-ways Sales Solutions</strong>{" "}
-            (Berlin) I delivered 10+ production-grade Next.js apps and a SwiftUI
-            iOS app across European markets. I care deeply about user-centric
-            design and clean architecture — feel free to{" "}
+            build pixel-perfect UIs across content platforms, admin panels, and
+            marketplace management systems, integrating REST APIs and
+            third-party services like Contentful CMS and eBay/Mirakl. I&apos;m
+            adept at leading frontend projects and collaborating with
+            cross-functional teams — feel free to{" "}
             <Link
-              href="https://linkedin.com/in/iammtw"
+              href="https://www.linkedin.com/in/hammad-zahid-357882209"
               className="gradient-text font-semibold underline-offset-4 hover:underline"
             >
               connect on LinkedIn

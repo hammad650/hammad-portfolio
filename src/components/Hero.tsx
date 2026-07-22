@@ -41,10 +41,10 @@ const Hero = () => {
           animate="show"
           className="font-extrabold md:leading-[1.05] leading-tight md:text-[64px] text-[34px] mt-6 tracking-tight text-white"
         >
-          Hi, I&apos;m Muhammad Talha
+          Hi, I&apos;m Hammad
           <br />
-          Waseem —{" "}
-          <span className="gradient-text">Senior Full-Stack Engineer</span>
+          Zahid —{" "}
+          <span className="gradient-text">Frontend Developer</span>
         </motion.h1>
 
         <motion.p
@@ -54,9 +54,9 @@ const Hero = () => {
           animate="show"
           className="text-slate-400 mt-6 max-w-2xl mx-auto text-base sm:text-lg md:px-0 px-2"
         >
-          5+ years shipping scalable, high-performance products across web and
-          mobile with React, Next.js, Node.js &amp; Flutter — plus hands-on
-          AI/LLM integration across Fintech, Healthcare &amp; Sustainability.
+          4+ years building responsive, high-performance web applications with
+          React, Next.js &amp; TypeScript — from CMS-integrated platforms to
+          admin dashboards and data-driven interfaces.
         </motion.p>
 
         <motion.div
@@ -73,7 +73,7 @@ const Hero = () => {
           </Button>
           <Button className="rounded-full glass !text-slate-200 !py-6 !px-7 text-base hover:!bg-white/10 transition-colors !cursor-pointer">
             <a
-              href="/Talha-CV.pdf"
+              href="/Hammad-Zahid-CV.pdf"
               download
               className="flex items-center gap-2"
             >
@@ -90,7 +90,7 @@ const Hero = () => {
           className="flex items-center justify-center gap-1.5 mt-6 text-sm text-slate-500"
         >
           <MapPin className="size-4" />
-          Islamabad, Pakistan
+          Lahore, Pakistan
         </motion.div>
       </section>
 

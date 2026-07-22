@@ -14,7 +14,7 @@ const Navbar = () => {
             href="/"
             className="text-white font-extrabold tracking-wide px-2 text-lg"
           >
-            M<span className="gradient-text">T</span>W
+            H<span className="gradient-text">Z</span>
           </Link>
         </div>
 
@@ -44,7 +44,7 @@ const Navbar = () => {
               <Link
                 target="_blank"
                 rel="noreferrer"
-                href="https://linkedin.com/in/iammtw"
+                href="https://www.linkedin.com/in/hammad-zahid-357882209"
               >
                 <FaLinkedin className="size-5 text-slate-300 hover:text-white cursor-pointer mr-1 transition-colors" />
               </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 download
                 target="_blank"
                 rel="noopener noreferrer"
-                href="/Talha-CV.pdf"
+                href="/Hammad-Zahid-CV.pdf"
               >
                 <IoDocumentTextOutline className="size-5 text-slate-300 hover:text-white cursor-pointer transition-colors" />
               </a>

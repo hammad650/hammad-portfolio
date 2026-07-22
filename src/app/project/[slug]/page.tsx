@@ -2,7 +2,7 @@ import React from "react";
 import { projects } from "../../../../_data/data";
 import { notFound } from "next/navigation";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, ArrowLeft, AlertTriangle, CheckCircle2 } from "lucide-react";
+import { ExternalLink, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { FiGithub } from "react-icons/fi";
 import Image from "next/image";
@@ -56,11 +56,13 @@ const ProjectPage = async ({
         </div>
 
         <div className="flex flex-wrap gap-3 mt-6">
-          <Link target="_blank" href={project.link}>
-            <Button className="rounded-full !bg-gradient-to-r !from-blue-500 !to-emerald-500 text-white !py-6 !px-6 hover:opacity-90 transition-opacity !cursor-pointer">
-              Visit Live Site <ExternalLink className="size-4" />
-            </Button>
-          </Link>
+          {project.link && (
+            <Link target="_blank" href={project.link}>
+              <Button className="rounded-full !bg-gradient-to-r !from-blue-500 !to-emerald-500 text-white !py-6 !px-6 hover:opacity-90 transition-opacity !cursor-pointer">
+                Visit Live Site <ExternalLink className="size-4" />
+              </Button>
+            </Link>
+          )}
           {project.git && (
             <Link target="_blank" href={project.git}>
               <Button className="rounded-full glass !text-slate-200 !py-6 !px-6 hover:!bg-white/10 !cursor-pointer">
@@ -75,25 +77,6 @@ const ProjectPage = async ({
             Overview
           </h2>
           <p className="text-slate-300 mt-3 leading-relaxed">{project.desc}</p>
-
-          <div className="mt-8 grid gap-6 sm:grid-cols-2">
-            <div className="rounded-2xl bg-red-500/5 border border-red-500/15 p-5">
-              <div className="flex items-center gap-2 text-red-300 font-semibold">
-                <AlertTriangle className="size-4" /> The Problem
-              </div>
-              <p className="text-slate-400 mt-2 text-sm leading-relaxed">
-                {project.problem}
-              </p>
-            </div>
-            <div className="rounded-2xl bg-emerald-500/5 border border-emerald-500/15 p-5">
-              <div className="flex items-center gap-2 text-emerald-300 font-semibold">
-                <CheckCircle2 className="size-4" /> The Solution
-              </div>
-              <p className="text-slate-400 mt-2 text-sm leading-relaxed">
-                {project.solution}
-              </p>
-            </div>
-          </div>
 
           <hr className="my-8 border-white/10" />
 
