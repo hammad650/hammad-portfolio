@@ -8,6 +8,7 @@ const techStack = [
   { name: "Next.js", src: "/tech/nextjs.svg" },
   { name: "TypeScript", src: "/tech/typescript.svg" },
   { name: "Node.js", src: "/tech/nodejs.svg" },
+  { name: "Express.js", src: "/tech/express.svg" },
   { name: "JavaScript", src: "/tech/javascript.svg" },
   { name: "Tailwind", src: "/tech/tailwind.svg" },
   { name: "Firebase", src: "/tech/firebase.svg" },
@@ -18,11 +19,11 @@ const StackLoop = () => {
   return (
     <div className="mx-auto max-w-2xl">
       <p className="text-center text-xs uppercase tracking-[0.24em] text-slate-500 mb-4">
-        My daily tech stack
+        My Tech Stack
       </p>
       <div className="relative overflow-hidden py-2">
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-16 z-10 bg-gradient-to-r from-[#060814] to-transparent" />
-        <div className="pointer-events-none absolute inset-y-0 right-0 w-16 z-10 bg-gradient-to-l from-[#060814] to-transparent" />
+        <div className="pointer-events-none absolute inset-y-0 left-0 w-16 z-10 bg-gradient-to-r from-[#0a0714] to-transparent" />
+        <div className="pointer-events-none absolute inset-y-0 right-0 w-16 z-10 bg-gradient-to-l from-[#0a0714] to-transparent" />
         <Marquee delay={2} speed={35} gradient={false}>
           {techStack.map((tech, index) => (
             <div

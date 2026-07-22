@@ -1,9 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
-import { FaLinkedin } from "react-icons/fa";
-import { IoDocumentTextOutline } from "react-icons/io5";
-import { HoverCard, HoverCardTrigger, HoverCardContent } from "./ui/hover-card";
 
 const Navbar = () => {
   return (
@@ -39,34 +36,8 @@ const Navbar = () => {
         </div>
 
         <div className="flex-between gap-2 flex-wrap">
-          <HoverCard>
-            <HoverCardTrigger>
-              <Link
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.linkedin.com/in/hammad-zahid-357882209"
-              >
-                <FaLinkedin className="size-5 text-slate-300 hover:text-white cursor-pointer mr-1 transition-colors" />
-              </Link>
-            </HoverCardTrigger>
-            <HoverCardContent>LinkedIn</HoverCardContent>
-          </HoverCard>
-          <HoverCard>
-            <HoverCardTrigger>
-              <a
-                download
-                target="_blank"
-                rel="noopener noreferrer"
-                href="/Hammad-Zahid-CV.pdf"
-              >
-                <IoDocumentTextOutline className="size-5 text-slate-300 hover:text-white cursor-pointer transition-colors" />
-              </a>
-            </HoverCardTrigger>
-            <HoverCardContent>Resume</HoverCardContent>
-          </HoverCard>
-
           <div>
-            <Button className="ml-1 rounded-full !bg-gradient-to-r !from-blue-500 !to-emerald-500 text-white hover:opacity-90 transition-opacity">
+            <Button className="ml-1 rounded-full !bg-gradient-to-r !from-violet-600 !to-violet-400 text-white hover:opacity-90 transition-opacity">
               <Link href="/#contact">Contact</Link>
             </Button>
           </div>

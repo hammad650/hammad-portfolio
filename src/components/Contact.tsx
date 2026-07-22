@@ -31,7 +31,7 @@ const Contact = () => {
   }
 
   const inputClass =
-    "w-full rounded-xl bg-white/5 border border-white/10 py-3.5 px-4 text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-emerald-400/50 focus:ring-2 focus:ring-emerald-400/10 transition";
+    "w-full rounded-xl bg-white/5 border border-white/10 py-3.5 px-4 text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-violet-300/50 focus:ring-2 focus:ring-violet-300/10 transition";
 
   return (
     <div id="contact" className="py-20 px-2 sm:px-4">
@@ -53,7 +53,7 @@ const Contact = () => {
               className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors group"
             >
               <span className="flex-center size-9 rounded-lg glass">
-                <Mail className="size-4 text-emerald-300" />
+                <Mail className="size-4 text-violet-200" />
               </span>
               khanhammad1093@gmail.com
               <ArrowUpRight className="size-3.5 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -64,14 +64,14 @@ const Contact = () => {
               className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors group"
             >
               <span className="flex-center size-9 rounded-lg glass">
-                <Linkedin className="size-4 text-emerald-300" />
+                <Linkedin className="size-4 text-violet-200" />
               </span>
               linkedin.com/in/hammad-zahid-357882209
               <ArrowUpRight className="size-3.5 opacity-0 group-hover:opacity-100 transition-opacity" />
             </Link>
             <div className="flex items-center gap-3 text-slate-300">
               <span className="flex-center size-9 rounded-lg glass">
-                <MapPin className="size-4 text-emerald-300" />
+                <MapPin className="size-4 text-violet-200" />
               </span>
               Lahore, Pakistan
             </div>
@@ -103,7 +103,7 @@ const Contact = () => {
             required
           />
           <Button
-            className="rounded-xl !bg-gradient-to-r !from-blue-500 !to-emerald-500 text-white !py-6 text-base hover:opacity-90 transition-opacity !cursor-pointer disabled:opacity-60"
+            className="rounded-xl !bg-gradient-to-r !from-violet-600 !to-violet-400 text-white !py-6 text-base hover:opacity-90 transition-opacity !cursor-pointer disabled:opacity-60"
             type="submit"
             disabled={loading}
           >

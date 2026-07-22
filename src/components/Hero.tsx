@@ -28,8 +28,8 @@ const Hero = () => {
           animate="show"
           className="mt-6 flex justify-center"
         >
-          <span className="chip !border-emerald-400/30 !bg-emerald-400/10 !text-emerald-300">
-            <span className="mr-2 inline-block size-2 rounded-full bg-emerald-400 animate-pulse" />
+          <span className="chip !border-violet-300/30 !bg-violet-300/10 !text-violet-200">
+            <span className="mr-2 inline-block size-2 rounded-full bg-violet-300 animate-pulse" />
             Available for freelance &amp; full-time
           </span>
         </motion.div>
@@ -66,7 +66,7 @@ const Hero = () => {
           animate="show"
           className="flex items-center justify-center mt-8 gap-3 flex-wrap"
         >
-          <Button className="rounded-full !bg-gradient-to-r !from-blue-500 !to-emerald-500 text-white !py-6 !px-7 text-base hover:opacity-90 transition-opacity !cursor-pointer">
+          <Button className="rounded-full !bg-gradient-to-r !from-violet-600 !to-violet-400 text-white !py-6 !px-7 text-base hover:opacity-90 transition-opacity !cursor-pointer">
             <a href="#contact" className="flex items-center gap-2">
               Hire Me <ArrowUpRight className="size-4" />
             </a>

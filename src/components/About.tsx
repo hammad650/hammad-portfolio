@@ -67,7 +67,7 @@ const About = () => {
           className="mt-4 space-y-4 text-slate-300 text-[17px] leading-relaxed"
         >
           <div className="float-none sm:float-right sm:ml-6 mb-4 relative w-fit">
-            <div className="absolute -inset-1.5 rounded-2xl bg-gradient-to-tr from-blue-500 to-emerald-400 blur-lg opacity-30" />
+            <div className="absolute -inset-1.5 rounded-2xl bg-gradient-to-tr from-violet-600 to-violet-300 blur-lg opacity-30" />
             <Image
               src="/img/hammad.jpeg"
               alt="Hammad Zahid"
@@ -119,8 +119,8 @@ const About = () => {
                 className="glass card-hover rounded-2xl p-5"
               >
                 <div className="flex items-center gap-3">
-                  <span className="flex-center size-10 rounded-xl bg-gradient-to-tr from-blue-500/20 to-emerald-500/20 border border-white/10">
-                    <Icon className="size-5 text-emerald-300" />
+                  <span className="flex-center size-10 rounded-xl bg-gradient-to-tr from-violet-600/20 to-violet-400/20 border border-white/10">
+                    <Icon className="size-5 text-violet-200" />
                   </span>
                   <h3 className="font-semibold text-white">{s.title}</h3>
                 </div>

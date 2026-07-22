@@ -20,21 +20,21 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
             href="https://www.linkedin.com/in/hammad-zahid-357882209"
-            className="flex-center size-10 rounded-full glass text-slate-300 hover:text-white hover:border-emerald-400/40 transition-colors"
+            className="flex-center size-10 rounded-full glass text-slate-300 hover:text-white hover:border-violet-300/40 transition-colors"
           >
             <FaLinkedin className="size-4" />
           </a>
           <a
             rel="noreferrer"
             href="mailto:khanhammad1093@gmail.com"
-            className="flex-center size-10 rounded-full glass text-slate-300 hover:text-white hover:border-emerald-400/40 transition-colors"
+            className="flex-center size-10 rounded-full glass text-slate-300 hover:text-white hover:border-violet-300/40 transition-colors"
           >
             <Mail className="size-4" />
           </a>
           <a
             rel="noreferrer"
             href="tel:+923196766187"
-            className="flex-center size-10 rounded-full glass text-slate-300 hover:text-white hover:border-emerald-400/40 transition-colors"
+            className="flex-center size-10 rounded-full glass text-slate-300 hover:text-white hover:border-violet-300/40 transition-colors"
           >
             <Phone className="size-4" />
           </a>

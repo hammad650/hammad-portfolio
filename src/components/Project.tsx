@@ -53,11 +53,11 @@ const Project = () => {
                       <h3 className="text-xl font-bold tracking-tight text-white">
                         {data.name}
                       </h3>
-                      <span className="flex-center size-8 rounded-full glass text-slate-300 transition-all group-hover:bg-gradient-to-tr group-hover:from-blue-500 group-hover:to-emerald-500 group-hover:text-white">
+                      <span className="flex-center size-8 rounded-full glass text-slate-300 transition-all group-hover:bg-gradient-to-tr group-hover:from-violet-600 group-hover:to-violet-400 group-hover:text-white">
                         <ArrowUpRight className="size-4" />
                       </span>
                     </div>
-                    <p className="text-sm text-slate-400 line-clamp-2 mt-2 flex-grow">
+                    <p className="text-sm text-slate-400 line-clamp-2 mt-2 h-10 shrink-0">
                       {data.desc}
                     </p>
                     <div className="flex flex-wrap gap-1.5 mt-4">

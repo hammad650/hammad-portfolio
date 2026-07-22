@@ -37,7 +37,7 @@ const ProjectPage = async ({
           <h1 className="font-extrabold text-[32px] sm:text-[44px] leading-tight tracking-tight text-white">
             {project.name}
             {project.work && (
-              <span className="ml-3 align-middle chip !text-blue-300 !border-blue-400/30 !bg-blue-400/10">
+              <span className="ml-3 align-middle chip !text-violet-300 !border-violet-400/30 !bg-violet-400/10">
                 {project.work}
               </span>
             )}
@@ -58,7 +58,7 @@ const ProjectPage = async ({
         <div className="flex flex-wrap gap-3 mt-6">
           {project.link && (
             <Link target="_blank" href={project.link}>
-              <Button className="rounded-full !bg-gradient-to-r !from-blue-500 !to-emerald-500 text-white !py-6 !px-6 hover:opacity-90 transition-opacity !cursor-pointer">
+              <Button className="rounded-full !bg-gradient-to-r !from-violet-600 !to-violet-400 text-white !py-6 !px-6 hover:opacity-90 transition-opacity !cursor-pointer">
                 Visit Live Site <ExternalLink className="size-4" />
               </Button>
             </Link>
@@ -86,7 +86,7 @@ const ProjectPage = async ({
           <ul className="flex flex-wrap gap-2 mt-4">
             {project.lang.map((tech) => (
               <li key={tech}>
-                <span className="chip !text-emerald-200 !border-emerald-400/25 !bg-emerald-400/10">
+                <span className="chip !text-violet-100 !border-violet-300/25 !bg-violet-300/10">
                   {tech}
                 </span>
               </li>

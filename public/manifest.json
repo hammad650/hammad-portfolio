@@ -4,8 +4,8 @@
   "description": "Portfolio of Muhammad Talha Waseem, Senior Full-Stack Engineer.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#060814",
-  "theme_color": "#060814",
+  "background_color": "#0a0714",
+  "theme_color": "#0a0714",
   "icons": [
     {
       "src": "/icon-192.png",
